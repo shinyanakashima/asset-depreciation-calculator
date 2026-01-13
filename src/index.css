@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* freee ブランドカラー（ブルー系） */
+@theme {
+  --color-brand-50:  #eef2fd;
+  --color-brand-100: #dce6fb;
+  --color-brand-200: #b9ccf7;
+  --color-brand-300: #96b3f3;
+  --color-brand-400: #6b90ee;
+  --color-brand-500: #3b6de8;
+  --color-brand-600: #2855d4;
+  --color-brand-700: #1e3faa;
+  --color-brand-800: #142d7a;
+  --color-brand-900: #0c1d52;
+}
+
+@layer base {
+  * {
+    border-color: hsl(214.3 31.8% 91.4%);
+  }
+  body {
+    background-color: #f4f6fc;
+    color: #1a1f3a;
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  }
+}

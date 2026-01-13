@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.claude/
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# editor
+.vscode/
+.idea/
+.DS_Store
